@@ -1,4 +1,5 @@
-site_name: My Docs
+site_name: Kennıkk Kauli
+
 theme: 
   name: material
   features:
@@ -30,6 +31,12 @@ theme:
         icon: material/lightbulb 
         name: Turn off the lights
 
+plugins:
+  - search
+  - macros
+  - social:
+      enabled: !ENV [CI, false]
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -46,3 +53,8 @@ markdown_extensions:
 
 copyright: |
   &copy; 2025 <a href="https://kkau.li"  target="_blank" rel="noopener">Kennıkk Kauli</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kkiris
