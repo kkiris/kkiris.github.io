@@ -36,6 +36,9 @@ plugins:
   - macros
   - social:
       enabled: !ENV [CI, false]
+  - redirects:
+      redirect_maps:
+        'lofi.md': 'https://b.link/skk'
 
 markdown_extensions:
   - pymdownx.highlight:
