@@ -38,7 +38,7 @@ plugins:
       enabled: !ENV [CI, false]
   - redirects:
       redirect_maps:
-        'lofi.md': 'https://b.link/skk'
+        'lofi.md': 'http://b.link/skk'
 
 markdown_extensions:
   - pymdownx.highlight:
