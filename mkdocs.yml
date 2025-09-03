@@ -58,6 +58,9 @@ copyright: |
   &copy; 2025 <a href="https://kkau.li"  target="_blank" rel="noopener">Kennıkk Kauli</a>
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kkiris
+    - icon: fontawesome/brands/instagram
+      link: https://instagr.am/kkau.li
